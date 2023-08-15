@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="css/normalize.css"/>
+  <link rel="stylesheet" href="css/main.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Lekton&family=Lexend+Tera&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="icon" type="image/png" href="icons/icons8-h-50.png"/> <!-- Corrected 'type' value -->
+  <title>Marialice Hilt</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Marialice Hilt</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <section class="hero" id="about">
+      <img
+        src="images/marialicehiltsquare.jpeg"
+        alt="marialicehilt"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX" style="margin-top: 5px;">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          Hi, there! I'm Marialice Hilt. I'm dedicated to crafting inclusive and
+          elegant web experiences.
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        I'm delighted to share my journey with you. I embarked on my
+        professional path as a dedicated special education teacher, where I
+        learned the incredible power of empathy, patience, and understanding.
+        Working with diverse groups of students taught me the importance of
+        creating inclusive environments where everyone's unique strengths are
+        celebrated.
+      </p>
+      <p>
+        I'm excited to bring my unique blend of skills and experiences,
+        including my Scrum Master certification, to the world of front-end
+        development. My journey from special education to web development
+        reflects my unwavering commitment to fostering inclusivity and embracing
+        challenges. I'm ready to dive headfirst into the dynamic realm of code,
+        combining my passion for accessibility with an innate love for clean,
+        efficient, and beautifully organized code.
+      </p>
+      <p>Thank you for joining me on this transformative adventure.</p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="icons/icons8-html-420.png"
+            alt="html"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="icons/icons8-css-420.png"
+            alt="css"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="icons/icons8-javascript-480.png"
+            alt="javascript"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="icons/icons8-react-512.png"
+            alt="react"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="icons/icons8-git-420.png"
+            alt="git"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <a href="https://55vvxv.csb.app/" target="_blank" alt="sticky note"
+            ><img
+              src="images/stickynotes.png"
+              alt="sticky notes"
+              loading="lazy"
+              class="project-pic"
+          /></a>
+          <h3 class="project-title">Super Sticky Notes</h3>
+          <p class="project-details">
+            This interactive app empowers users to effortlessly create and
+            manage their to-do items through "sticky notes" directly on their
+            computer screens. Developed using ES6 and JSX, the app boasts
+            efficient data flow management and manipulation of the DOM. Every
+            stage of the app's creation is meticulously crafted for optimal
+            performance and user experience.
+          </p>
+          <a href="https://55vvxv.csb.app/" target="_blank" class="project-link"
+            >Check it Out</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <a
+            href="https://marialiceh.github.io/guess-the-word/"
+            target="_blank"
+          >
+            <img
+              src="images/guesstheword.png"
+              alt="guess the word"
+              loading="lazy"
+              class="project-pic"
+            />
+          </a>
+          <h3 class="project-title">Guess The Word</h3>
+          <p class="project-details">
+            This captivating word-solving application invites players to test
+            their skills by entering one letter at a time, inching closer to
+            victory with each correct guess. Expertly developed with expertise
+            in manipulating the DOM and Vanilla JavaScript, the app creates an
+            immersive environment for players to showcase linguistic ability.
+          </p>
+          <a
+            href="https://marialiceh.github.io/guess-the-word/"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <a href="https://wjnlcp.csb.app/" target="_blank">
+            <img
+              src="images/nametaggen.png"
+              alt="Name Tag Generator"
+              loading="lazy"
+              class="project-pic"
+            />
+          </a>
+          <h3 class="project-title">Name Tag Generator</h3>
+          <p class="project-details">
+            This React app seamlessly blends functionality and user convenience.
+            The meticulously crafted code brings to life an interactive platform
+            where users can add and remove names from a dynamic list. What sets
+            this app apart is its ingenuity in leveraging local storage,
+            ensuring added names remain intact even between page visits. The
+            code showcases the versatility of React and the commitment to
+            enhancing user experience through smart, persistent data management.
+          </p>
+
+          <a href="https://wjnlcp.csb.app/" target="_blank" class="project-link"
+            >Check it Out</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/mdoregea" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder=""
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder=""
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://twitter.com/mmashbu_hilt" target="_blank"
+        ><img
+          src="icons/icons8-x.gif"
+          alt="TwitterX"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/marialicehilt/" target="_blank"
+        ><img
+          src="icons/icons8-linkedin.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/MarialiceH" target="_blank"
+        ><img src="icons/icons8-github.gif" alt="Github" class="socicon" />
+      </a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up">
+      <img src="icons/icons8-up.gif" class="socicon up-arrow" alt="scroll-up" />
+    </i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2023</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://github.com/MarialiceH" target="_blank"
+          >Marialice Hilt</a
+        >
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="js/app.js">
+      // scroll to top functionality
+    </script>
+  </body>
+</html>
