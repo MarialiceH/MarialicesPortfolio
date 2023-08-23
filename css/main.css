@@ -417,7 +417,13 @@ footer {
     justify-content: center;
   }
 
-  .skills-column {
+  .skills-column first-set animate__animated animate__pulse {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .skills-column second-set animate__animated animate__pulse {
     display: flex;
     flex-direction: column;
     gap: 20px;
