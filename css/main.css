@@ -150,6 +150,7 @@ nav ul li {
 .more-about p {
   line-height: var(--line-height);
   padding: 0.4rem;
+  max-width: 750px;
 }
 
 .skills {
@@ -423,5 +424,4 @@ footer {
     display: flex;
     flex-direction: column;
   }
-
-} 
+}
