@@ -383,10 +383,6 @@ footer {
     text-align: justify;
   }
 
-  .icon {
-    width: 5.875rem;
-    height: 5.25rem;
-  }
   .projects-container {
     flex-direction: column;
   }
@@ -402,7 +398,8 @@ footer {
 
 @media screen and (max-width: 420px) {
   .hero img {
-    height: 18.5rem;
+    padding-top: 1rem;
+    height: 18.75rem;
     width: 17.5rem;
     margin-top: 1px;
     padding-bottom: 1rem;
@@ -410,28 +407,6 @@ footer {
 
   .bio {
     width: 18.3rem;
-  }
-
-  .skills-wrapper {
-    display: flex;
-    justify-content: center;
-  }
-
-  .skills-column first-set animate__animated animate__pulse {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .skills-column second-set animate__animated animate__pulse {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .icon {
-    max-width: 100px;
-    height: auto;
   }
 
   .project-container {
