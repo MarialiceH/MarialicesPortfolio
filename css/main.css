@@ -402,7 +402,7 @@ footer {
 
 @media screen and (max-width: 420px) {
   .hero img {
-    height: 17.5rem;
+    height: 18.5rem;
     width: 17.5rem;
     margin-top: 1px;
     padding-bottom: 1rem;
@@ -410,6 +410,22 @@ footer {
 
   .bio {
     width: 18.3rem;
+  }
+
+  .skills-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .skills-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .icon {
+    max-width: 100px;
+    height: auto;
   }
 
   .project-container {
