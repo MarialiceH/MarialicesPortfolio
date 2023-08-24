@@ -75,6 +75,7 @@ nav {
 
 nav h1 {
   color: var(--primary-color);
+  font-size: 1.5rem;
 }
 
 nav a {
@@ -138,6 +139,8 @@ nav ul li {
 }
 
 .more-about {
+  align-items: center;
+  justify-content: space-between;
   background-color: var(--bg-color);
   padding: 1rem 6rem;
 }
@@ -148,9 +151,18 @@ nav ul li {
 }
 
 .more-about p {
+  flex: 1;
   line-height: var(--line-height);
   padding: 0.4rem;
-  max-width: 750px;
+  max-width: 850px;
+}
+.container {
+  display: flex;
+}
+
+.paragraph {
+  flex: 1;
+  margin: 10px;
 }
 
 .skills {
@@ -189,7 +201,6 @@ nav ul li {
 
 .project-pic {
   width: 65%;
-  height: 60%;
 }
 
 .projects-container {
@@ -207,6 +218,7 @@ nav ul li {
   text-align: center;
   width: 21.875rem;
   padding: 1rem;
+  text-size-adjust: auto;
 }
 
 .project-container p {
@@ -324,6 +336,18 @@ footer {
   height: 2rem;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .up-arrow {
+    animation: none;
+  }
+  .socials {
+    animation: none;
+  }
+  .bio animate__animated animate__shakeX {
+    animation: none;
+  }
+}
+
 @media screen and (max-width: 720px) {
   /*changes reflects on screen with a width of 720px and below*/
   nav {
@@ -380,7 +404,11 @@ footer {
   }
 
   .more-about p {
-    text-align: justify;
+    text-align: left;
+  }
+
+  .container {
+    flex-direction: column;
   }
 
   .projects-container {
