@@ -449,4 +449,8 @@ footer {
     display: flex;
     flex-direction: column;
   }
+
+  .submit-btn {
+    color: #152a3e;
+  }
 }
