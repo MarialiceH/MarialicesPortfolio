@@ -238,7 +238,7 @@ nav ul li {
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
-  margin: 10px;
+  margin: 5px;
 }
 
 .contact {
@@ -405,19 +405,32 @@ footer {
   }
 
   .more-about p {
-    text-align: left;
+    text-align: justifty;
   }
 
   .container {
     flex-direction: column;
+    width: 100%;
   }
 
   .projects-container {
     flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .project-pic {
+    width: 100%;
+  }
+
+  .project-card {
+    margin: 10px;
+    width: 100%;
   }
 
   .project-container {
-    width: 20.875rem;
+    flex-direction: column;
+    width: 100%;
   }
 
   .contact-form-container {
@@ -443,7 +456,7 @@ footer {
   }
 
   .project-container {
-    width: 17.875rem;
+    width: 95%;
   }
 
   .contact-form-container {
