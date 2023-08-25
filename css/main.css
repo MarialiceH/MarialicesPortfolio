@@ -359,15 +359,15 @@ footer {
     background-color: var(--bg-color);
     flex-direction: column;
     top: 86px;
-    left: 10%;
-    width: 80%;
+    left: 0%;
+    width: 100%;
     text-align: center;
     transform: translateX(120%);
     transition: transform 0.5s ease-in;
   }
 
   nav ul li {
-    margin: 8px;
+    margin: 0px;
   }
 
   .burger-menu {
@@ -376,6 +376,7 @@ footer {
 
   nav ul.show {
     transform: translateX(0);
+    width: 100%;
   }
 
   .hero {
