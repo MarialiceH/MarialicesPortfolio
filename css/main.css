@@ -422,6 +422,10 @@ footer {
   .contact-form-container {
     max-width: 23.75rem;
   }
+
+  .submit-btn {
+    color: #152a3e;
+  }
 }
 
 @media screen and (max-width: 420px) {
