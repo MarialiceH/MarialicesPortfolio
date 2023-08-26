@@ -61,7 +61,7 @@ body {
 /***** Nav Section ******/
 
 nav {
-  position: sticky;
+  position: display;
   top: 0;
   left: 0;
   z-index: 1;
@@ -223,9 +223,11 @@ nav ul li {
 
 .project-container p {
   padding: 0.4rem;
+  text-align: left;
 }
 
 .project-title {
+  margin-top: 20px;
   margin-bottom: var(--bottom-margin);
 }
 
@@ -239,6 +241,10 @@ nav ul li {
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 5px;
+}
+
+.project-link h4 {
+  font-family: "lexend tera";
 }
 
 .contact {
